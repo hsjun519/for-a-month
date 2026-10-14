@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "release": true,
+  "base_commit": "f5811314da76d009d0eecac486f9735b6b08fc61",
+  "files": {
+    "index.pck": {
+      "bytes": 5838928,
+      "sha256": "a7ff588010f26019fabf6d0fbdffa80816820260c152f0310b8ef76f9f3fc0ee",
+      "mime": "application/octet-stream",
+      "url": "index.pck.a7ff588010f2.gz",
+      "gzip_bytes": 5323487
+    },
+    "index.wasm": {
+      "bytes": 38034280,
+      "sha256": "6498359ba889796a0d95a2f71113ac184badc0f2d84cf28f4103c7e399d2d547",
+      "mime": "application/wasm",
+      "url": "index.wasm.6498359ba889.gz",
+      "gzip_bytes": 9237412
+    },
+    "index.late.pck": {
+      "bytes": 35371136,
+      "sha256": "7f7e65356d2258cecae17164ac70c3d4709c743297d89f23708ba46e4562f29e",
+      "mime": "application/octet-stream",
+      "parts": [
+        {
+          "url": "index.late.part-01.5adbe7c29ff2.pck.gz",
+          "bytes": 16777216,
+          "gzip_bytes": 16529657,
+          "sha256": "5adbe7c29ff2a28b005c469eaf14cc17a9aadf89ca26f47a6fbedfcfd32d9f05"
+        },
+        {
+          "url": "index.late.part-02.29d927c542dd.pck.gz",
+          "bytes": 16777216,
+          "gzip_bytes": 16748553,
+          "sha256": "29d927c542dd3ceb32a6da9a00398fad40e3eb2e12ac19d4cfe40117fdfaa9ca"
+        },
+        {
+          "url": "index.late.part-03.0fcf717360ec.pck.gz",
+          "bytes": 1816704,
+          "gzip_bytes": 1744145,
+          "sha256": "0fcf717360ec1b4f7f26c9221c22e7c41b9a986a52ee1c9e35da69ab0a83f242"
+        }
+      ],
+      "gzip_bytes": 35022355
+    }
+  },
+  "play": [
+    "index.late.pck"
+  ]
+}
