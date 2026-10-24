@@ -1,14 +1,14 @@
 {
   "schema": 1,
   "release": true,
-  "base_commit": "d4a99522e5bea5a26e2cec689e0b46e5a5312533",
+  "base_commit": "7541dea0338afb7eeae815890e770d765534985d",
   "files": {
     "index.pck": {
-      "bytes": 6396080,
-      "sha256": "f1eb079fc761d4cd8bb59b175e9e93e851c9ada6efa1b769cf33d76f6184eba1",
+      "bytes": 6859036,
+      "sha256": "20e5f4ddcf6b2b07b612660dc7d19cc2db59141e421667dcc717e45d51868970",
       "mime": "application/octet-stream",
-      "url": "index.pck.f1eb079fc761.gz",
-      "gzip_bytes": 5806236
+      "url": "index.pck.20e5f4ddcf6b.gz",
+      "gzip_bytes": 6242823
     },
     "index.wasm": {
       "bytes": 38034280,
@@ -18,15 +18,15 @@
       "gzip_bytes": 9237412
     },
     "index.late.pck": {
-      "bytes": 42150212,
-      "sha256": "541c36b90b09cdd06aa918d3399960730607ca80c08350a74ee77c39f3d7f84d",
+      "bytes": 42451156,
+      "sha256": "9ccfbceace299b89740d64a2bd6b3a19be7bfef6f948b9a0ce6efc08f080f2d6",
       "mime": "application/octet-stream",
       "parts": [
         {
-          "url": "index.late.part-01.89c8761d420d.pck.gz",
+          "url": "index.late.part-01.049360c8f9c0.pck.gz",
           "bytes": 16777216,
-          "gzip_bytes": 16534456,
-          "sha256": "89c8761d420d77e65d8e67bbf8ba415643e96dedabf89c29447cd90cdb1f774b"
+          "gzip_bytes": 16534453,
+          "sha256": "049360c8f9c0eca2b4f8831f30e2ce76684113b4e0eefe69e6c30582439da340"
         },
         {
           "url": "index.late.part-02.c72cb357e63a.pck.gz",
@@ -35,13 +35,13 @@
           "sha256": "c72cb357e63a7ecbcc5bcee5a4a99248b02402d4f61ac5ea6de6e249d57ca8bd"
         },
         {
-          "url": "index.late.part-03.ec2428bbe36f.pck.gz",
-          "bytes": 8595780,
-          "gzip_bytes": 8512543,
-          "sha256": "ec2428bbe36fbfdd66311834dbf53061bc1da1c1d8fd11a9d6b70a754e52bb71"
+          "url": "index.late.part-03.7738e28589e8.pck.gz",
+          "bytes": 8896724,
+          "gzip_bytes": 8808515,
+          "sha256": "7738e28589e8c7944a94cde75e457afe73d2fea07e7e4ff91e1fa61dad4d77f7"
         }
       ],
-      "gzip_bytes": 41766876
+      "gzip_bytes": 42062845
     }
   },
   "play": [
